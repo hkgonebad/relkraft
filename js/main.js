@@ -1,6 +1,8 @@
 // document.addEventListener("DOMContentLoaded", yall);
 //AOS
-AOS.init();
+AOS.init({
+  duration: 600,
+});
 
 // Get the header
 // var header = document.getElementById("header");
