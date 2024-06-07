@@ -1,0 +1,121 @@
+footer {
+    a {
+        color: $primary;
+    }
+}
+
+.topFooter {
+    background-image: url('../img/bg/footer-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+
+    padding: 50px 0 20px;
+    color: $primary;
+
+    .tfLinks {
+        @include media-breakpoint-down(md) {
+            margin-bottom: 20px;
+        }
+
+        h4 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 30px;
+            position: relative;
+
+            @include media-breakpoint-down(md) {
+                font-size: 19px;
+            }
+
+            &:after {
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: -10px;
+                height: 3px;
+                width: 38px;
+                background: $primary;
+            }
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: flex;
+            flex-flow: column;
+            align-items: flex-start;
+            gap: 15px;
+
+            li {
+
+                a {
+                    position: relative;
+                    padding-left: 20px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    transition: all 0.3s ease-in-out;
+
+                    &:before {
+                        content: '\f105';
+                        font-family: 'Font Awesome 6 Free';
+                        font-weight: 900;
+                        font-size: 16px;
+                        position: absolute;
+                        left: 0px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        color: $success;
+                        transition: all 0.3s ease-in-out;
+                    }
+
+                    &:hover {
+                        color: $success;
+                        padding-left: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.copyRight {
+    padding: 15px 0 15px;
+    border: 1px solid #0000001A;
+    font-size: 12px;
+    font-weight: 500;
+
+    @include media-breakpoint-down(md) {
+        text-align: center;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+
+    .cpyTxt {}
+
+    .cpyLinks {
+
+        @include media-breakpoint-up(md) {
+            text-align: right;
+        }
+
+        a {
+            margin: 0 10px;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                color: $success;
+            }
+        }
+    }
+}

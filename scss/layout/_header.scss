@@ -1,0 +1,144 @@
+header {
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    @include box-shadow(0px 4px 21px 0px #00000024);
+
+    @include transition(all 250ms cubic-bezier(0.7, 0.2, 0.4, 0.60));
+
+    @include media-breakpoint-down(md) {
+        // height: 70px;
+    }
+
+
+}
+
+.navbar {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0;
+
+    @include media-breakpoint-down(md) {}
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navbar-brand {
+        @include media-breakpoint-down(md) {
+            margin: 0;
+        }
+    }
+
+    .navbar-nav {
+        gap: 15px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+        position: relative;
+        color: $primary;
+
+        &:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 3px;
+            margin: 0 auto;
+            width: 85%;
+            height: 3px;
+            background: $success;
+            clip-path: polygon(0 0, 95% 0, 100% 100%, 5% 100%);
+            opacity: 0;
+            visibility: hidden;
+            transition: all ease-in-out 250ms;
+
+            @include media-breakpoint-down(lg) {
+                bottom: 0;
+                width: 100%;
+            }
+        }
+
+        &:hover,
+        &.active,
+        &:focus {
+            color: $success;
+
+            &:after {
+                bottom: 0;
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+
+    .extras {
+
+        .btn-outline-secondary {
+            width: 170px;
+            height: 40px;
+            gap: 0px;
+            border-radius: 100px;
+            border-color: $secondary;
+            color: $secondary;
+
+            &:hover,
+            &:focus,
+            &:active,
+            &.show {
+                background: $secondary;
+                color: #fff;
+            }
+
+        }
+    }
+}
+
+.sticky {
+
+    .topHeader {}
+}
+
+.dropdown {
+
+    .dropdown-menu {
+        border: none;
+        box-shadow: 0px 4px 21px 0px #00000024;
+        border-radius: 0 0 20px 20px;
+        overflow: hidden;
+        // margin-top: 10px;
+        padding: 0px 15px;
+
+        li {
+            &:not(:last-child) {
+                border-bottom: 1px solid #ccc;
+            }
+        }
+    }
+
+    .dropdown-item {
+        font-size: 11px;
+        color: #000;
+        padding: 0.75rem 1rem;
+        transition: all 0.3s ease;
+        cursor: pointer;
+
+        background: #fff;
+
+        &:hover {
+            color: $secondary;
+        }
+    }
+}

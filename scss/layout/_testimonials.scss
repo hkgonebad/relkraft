@@ -1,0 +1,93 @@
+.testimonials {
+    position: relative;
+    background-image: url('../img/bg/wcu-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .testiIcon {
+        position: absolute;
+        top: -40px;
+        left: 25px;
+        z-index: 1;
+
+        img {
+            max-width: 100%;
+        }
+
+    }
+
+    .testimonialsSlider {
+        margin-top: 4rem;
+        padding-bottom: 2rem;
+
+        .tsBox {
+            position: relative;
+            overflow: hidden;
+            margin: 0 10px;
+            border-radius: 30px;
+            box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+
+            .tsImg {
+                position: relative;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                }
+
+                video {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    object-fit: cover;
+                }
+            }
+
+            .tsContent {
+                padding: 20px;
+                position: absolute;
+                z-index: 3;
+                color: #fff;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: rgba(255, 255, 255, 0.9);
+                background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60.39%, rgba(2, 15, 35, 0.7) 82.77%, rgba(0, 0, 0, 0.7) 100%);
+
+                h4 {
+                    font-size: 22px;
+                    margin-bottom: 4px;
+                }
+
+                small {
+                    font-size: 18px;
+                    display: block;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
+        .slick-prev,
+        .slick-next {
+            top: initial;
+            bottom: -60px;
+            right: 0;
+            left: 0;
+        }
+
+        .slick-next {
+            transform: translateX(-50%);
+            left: calc(50% + 30px)
+        }
+
+        .slick-prev {
+            transform: translateX(-50%);
+            left: calc(50% - 30px)
+        }
+    }
+}
