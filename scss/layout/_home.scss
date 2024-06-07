@@ -1,10 +1,4 @@
-.slider {
-    background-image: url('../img/bg/slider-bg.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
+.slider {}
 
 // Home Slider >>
 .homeSlider {
@@ -125,11 +119,7 @@
     }
 
     .aboutImg {
-        position: relative;
-        background-image: url('../img/bg/elements-bg-1.png');
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
+
 
         @include media-breakpoint-down(md) {
             text-align: center;
@@ -166,6 +156,7 @@
     position: relative;
     display: flex;
     overflow: hidden;
+    cursor: pointer;
 
     @include media-breakpoint-down(md) {
         margin-bottom: 20px;
@@ -201,19 +192,65 @@
         transition: all 0.3s ease-in-out;
     }
 
+    .prodDetails {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        padding: 40px;
+        background: #9d85beb8;
+        z-index: 1;
+        display: flex;
+        color: #fff;
+
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease-in-out;
+
+        .prodBorder {
+            border: 1px dashed #fff;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        h4 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 5px;
+            padding-bottom: 20px;
+            border-bottom: 1px dashed #fff;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+            margin-bottom: 0px;
+        }
+    }
+
     .category {
         position: absolute;
+        z-index: 2;
         left: 0px;
         right: 0;
         bottom: 0;
         color: #fff;
-        font-size: 14px;
+        font-size: 20px;
         font-weight: 700;
+        text-transform: uppercase;
 
         span {
-            clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);
+            clip-path: polygon(0 0, 85% 0, 100% 100%, 15% 100%);
             height: 35px;
-            padding: 0 30px;
+            padding: 0 40px;
             display: flex;
             align-items: center;
             position: absolute;
@@ -257,6 +294,11 @@
     &:hover {
         .pImg {
             transform: scale(1.1);
+        }
+
+        .prodDetails {
+            opacity: 1;
+            visibility: visible;
         }
     }
 }
@@ -345,8 +387,8 @@
         li {
             position: relative;
             padding-left: 20px;
-            font-size: 14px;
-            font-weight: 400;
+            font-size: 15px;
+            font-weight: 700;
             transition: all 0.3s ease-in-out;
 
             &:before {

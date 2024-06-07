@@ -36195,7 +36195,7 @@ body {
 
 /* line 20, ../laragon/www/relkraft/scss/layout/_default.scss */
 ::-webkit-scrollbar-thumb {
-  background-color: #E32729;
+  background-color: #62BB46;
 }
 
 /* line 24, ../laragon/www/relkraft/scss/layout/_default.scss */
@@ -36774,15 +36774,7 @@ footer a {
   color: #62BB46;
 }
 
-/* line 1, ../laragon/www/relkraft/scss/layout/_home.scss */
-.slider {
-  background-image: url("../img/bg/slider-bg.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-/* line 12, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 6, ../laragon/www/relkraft/scss/layout/_home.scss */
 .homeSlider .slide {
   position: relative;
   display: flex;
@@ -36796,13 +36788,13 @@ footer a {
 }
 
 @media (max-width: 767.98px) {
-  /* line 12, ../laragon/www/relkraft/scss/layout/_home.scss */
+  /* line 6, ../laragon/www/relkraft/scss/layout/_home.scss */
   .homeSlider .slide {
     height: 300px;
   }
 }
 
-/* line 28, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 22, ../laragon/www/relkraft/scss/layout/_home.scss */
 .homeSlider .slick-dots {
   bottom: 20px;
   right: 0;
@@ -36811,17 +36803,17 @@ footer a {
   width: auto;
 }
 
-/* line 36, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 30, ../laragon/www/relkraft/scss/layout/_home.scss */
 .homeSlider .sliderImg {
   display: flex;
 }
 
-/* line 39, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 33, ../laragon/www/relkraft/scss/layout/_home.scss */
 .homeSlider .sliderImg img {
   width: 100%;
 }
 
-/* line 44, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 38, ../laragon/www/relkraft/scss/layout/_home.scss */
 .homeSlider .sliderContent {
   position: absolute;
   top: 55%;
@@ -36831,7 +36823,7 @@ footer a {
 }
 
 @media (max-width: 767.98px) {
-  /* line 44, ../laragon/www/relkraft/scss/layout/_home.scss */
+  /* line 38, ../laragon/www/relkraft/scss/layout/_home.scss */
   .homeSlider .sliderContent {
     left: 10%;
     max-width: 100%;
@@ -36839,14 +36831,14 @@ footer a {
 }
 
 @media (max-width: 575.98px) {
-  /* line 44, ../laragon/www/relkraft/scss/layout/_home.scss */
+  /* line 38, ../laragon/www/relkraft/scss/layout/_home.scss */
   .homeSlider .sliderContent {
     left: 20px;
     right: 20px;
   }
 }
 
-/* line 62, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 56, ../laragon/www/relkraft/scss/layout/_home.scss */
 .homeSlider .sliderContent h1, .homeSlider .sliderContent .h1 {
   font-size: 40px;
   font-weight: 900;
@@ -36857,13 +36849,13 @@ footer a {
 }
 
 @media (max-width: 767.98px) {
-  /* line 62, ../laragon/www/relkraft/scss/layout/_home.scss */
+  /* line 56, ../laragon/www/relkraft/scss/layout/_home.scss */
   .homeSlider .sliderContent h1, .homeSlider .sliderContent .h1 {
     font-size: 26px;
   }
 }
 
-/* line 75, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 69, ../laragon/www/relkraft/scss/layout/_home.scss */
 .homeSlider .sliderContent p {
   font-size: 18px;
   font-weight: 500;
@@ -36871,14 +36863,14 @@ footer a {
   margin-bottom: 10px;
 }
 
-/* line 82, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 76, ../laragon/www/relkraft/scss/layout/_home.scss */
 .homeSlider .sliderContent .btns {
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-/* line 89, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 83, ../laragon/www/relkraft/scss/layout/_home.scss */
 .homeSlider .sliderImg {
   align-self: flex-end;
   display: flex;
@@ -36886,19 +36878,19 @@ footer a {
   justify-content: center;
 }
 
-/* line 96, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 90, ../laragon/www/relkraft/scss/layout/_home.scss */
 .homeSlider .sliderImg img {
   width: auto;
 }
 
-/* line 106, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 100, ../laragon/www/relkraft/scss/layout/_home.scss */
 .about .aboutArea {
   position: relative;
   border: 1px solid #62BB46;
   padding: 30px;
 }
 
-/* line 111, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 105, ../laragon/www/relkraft/scss/layout/_home.scss */
 .about .aboutArea .arrow {
   position: absolute;
   left: 0;
@@ -36913,35 +36905,26 @@ footer a {
   background-repeat: no-repeat;
 }
 
-/* line 127, ../laragon/www/relkraft/scss/layout/_home.scss */
-.about .aboutImg {
-  position: relative;
-  background-image: url("../img/bg/elements-bg-1.png");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 @media (max-width: 767.98px) {
-  /* line 127, ../laragon/www/relkraft/scss/layout/_home.scss */
+  /* line 121, ../laragon/www/relkraft/scss/layout/_home.scss */
   .about .aboutImg {
     text-align: center;
   }
 }
 
-/* line 141, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 131, ../laragon/www/relkraft/scss/layout/_home.scss */
 .about .aboutContent {
   position: relative;
 }
 
 @media (max-width: 767.98px) {
-  /* line 141, ../laragon/www/relkraft/scss/layout/_home.scss */
+  /* line 131, ../laragon/www/relkraft/scss/layout/_home.scss */
   .about .aboutContent {
     margin-bottom: 20px;
   }
 }
 
-/* line 148, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 138, ../laragon/www/relkraft/scss/layout/_home.scss */
 .about .aboutContent p {
   font-size: 18px;
   font-weight: 300;
@@ -36949,27 +36932,28 @@ footer a {
   margin-bottom: 20px;
 }
 
-/* line 154, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 144, ../laragon/www/relkraft/scss/layout/_home.scss */
 .about .aboutContent p b {
   color: #1B3A66;
   display: block;
 }
 
-/* line 165, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 155, ../laragon/www/relkraft/scss/layout/_home.scss */
 .prodBox {
   position: relative;
   display: flex;
   overflow: hidden;
+  cursor: pointer;
 }
 
 @media (max-width: 767.98px) {
-  /* line 165, ../laragon/www/relkraft/scss/layout/_home.scss */
+  /* line 155, ../laragon/www/relkraft/scss/layout/_home.scss */
   .prodBox {
     margin-bottom: 20px;
   }
 }
 
-/* line 174, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 165, ../laragon/www/relkraft/scss/layout/_home.scss */
 .prodBox .cSoon {
   position: absolute;
   z-index: 2;
@@ -36987,14 +36971,14 @@ footer a {
   text-align: center;
 }
 
-/* line 190, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 181, ../laragon/www/relkraft/scss/layout/_home.scss */
 .prodBox .cSoon span {
   display: block;
   font-size: 14px;
   font-weight: 400;
 }
 
-/* line 197, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 188, ../laragon/www/relkraft/scss/layout/_home.scss */
 .prodBox .pImg {
   position: relative;
   width: 100%;
@@ -37002,22 +36986,71 @@ footer a {
   transition: all 0.3s ease-in-out;
 }
 
-/* line 204, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 195, ../laragon/www/relkraft/scss/layout/_home.scss */
+.prodBox .prodDetails {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  padding: 40px;
+  background: #9d85beb8;
+  z-index: 1;
+  display: flex;
+  color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+/* line 212, ../laragon/www/relkraft/scss/layout/_home.scss */
+.prodBox .prodDetails .prodBorder {
+  border: 1px dashed #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* line 222, ../laragon/www/relkraft/scss/layout/_home.scss */
+.prodBox .prodDetails h4, .prodBox .prodDetails .h4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 5px;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #fff;
+}
+
+/* line 231, ../laragon/www/relkraft/scss/layout/_home.scss */
+.prodBox .prodDetails p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+/* line 239, ../laragon/www/relkraft/scss/layout/_home.scss */
 .prodBox .category {
   position: absolute;
+  z-index: 2;
   left: 0px;
   right: 0;
   bottom: 0;
   color: #fff;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
-/* line 213, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 250, ../laragon/www/relkraft/scss/layout/_home.scss */
 .prodBox .category span {
-  clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 15% 100%);
   height: 35px;
-  padding: 0 30px;
+  padding: 0 40px;
   display: flex;
   align-items: center;
   position: absolute;
@@ -37025,7 +37058,7 @@ footer a {
   bottom: 0;
 }
 
-/* line 224, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 261, ../laragon/www/relkraft/scss/layout/_home.scss */
 .prodBox .category:after {
   content: '';
   position: absolute;
@@ -37038,32 +37071,38 @@ footer a {
   z-index: 1;
 }
 
-/* line 237, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 274, ../laragon/www/relkraft/scss/layout/_home.scss */
 .prodBox .category.category-orange span {
   background: #F47A20;
 }
 
-/* line 241, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 278, ../laragon/www/relkraft/scss/layout/_home.scss */
 .prodBox .category.category-orange:after {
   background: #F47A20;
 }
 
-/* line 247, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 284, ../laragon/www/relkraft/scss/layout/_home.scss */
 .prodBox .category.category-purple span {
   background: #9D85BE;
 }
 
-/* line 251, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 288, ../laragon/www/relkraft/scss/layout/_home.scss */
 .prodBox .category.category-purple:after {
   background: #9D85BE;
 }
 
-/* line 258, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 295, ../laragon/www/relkraft/scss/layout/_home.scss */
 .prodBox:hover .pImg {
   transform: scale(1.1);
 }
 
-/* line 266, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 299, ../laragon/www/relkraft/scss/layout/_home.scss */
+.prodBox:hover .prodDetails {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* line 308, ../laragon/www/relkraft/scss/layout/_home.scss */
 .keyFeatures {
   position: relative;
   background-image: url("../img/bg/features-bg.jpg");
@@ -37072,7 +37111,7 @@ footer a {
   background-repeat: no-repeat;
 }
 
-/* line 273, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 315, ../laragon/www/relkraft/scss/layout/_home.scss */
 .keyFeatures:after {
   content: '';
   position: absolute;
@@ -37084,7 +37123,7 @@ footer a {
   z-index: 1;
 }
 
-/* line 284, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 326, ../laragon/www/relkraft/scss/layout/_home.scss */
 .keyFeatures .arrow {
   position: absolute;
   left: 0;
@@ -37099,7 +37138,7 @@ footer a {
   background-repeat: no-repeat;
 }
 
-/* line 299, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 341, ../laragon/www/relkraft/scss/layout/_home.scss */
 .keyFeatures .kfBox {
   position: relative;
   z-index: 4;
@@ -37109,25 +37148,25 @@ footer a {
   margin-bottom: 20px;
 }
 
-/* line 307, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 349, ../laragon/www/relkraft/scss/layout/_home.scss */
 .keyFeatures .kfBox img {
   width: 24px;
   height: auto;
 }
 
-/* line 312, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 354, ../laragon/www/relkraft/scss/layout/_home.scss */
 .keyFeatures .kfBox h3, .keyFeatures .kfBox .h3 {
   font-size: 16px;
   font-weight: 700;
   color: #fff;
 }
 
-/* line 325, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 367, ../laragon/www/relkraft/scss/layout/_home.scss */
 .applications .appImg img {
   width: 100%;
 }
 
-/* line 332, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 374, ../laragon/www/relkraft/scss/layout/_home.scss */
 .appList ul {
   padding: 0;
   margin: 0;
@@ -37139,22 +37178,22 @@ footer a {
 }
 
 @media (max-width: 767.98px) {
-  /* line 332, ../laragon/www/relkraft/scss/layout/_home.scss */
+  /* line 374, ../laragon/www/relkraft/scss/layout/_home.scss */
   .appList ul {
     margin-bottom: 20px;
   }
 }
 
-/* line 345, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 387, ../laragon/www/relkraft/scss/layout/_home.scss */
 .appList ul li {
   position: relative;
   padding-left: 20px;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 700;
   transition: all 0.3s ease-in-out;
 }
 
-/* line 352, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 394, ../laragon/www/relkraft/scss/layout/_home.scss */
 .appList ul li:before {
   content: '\f105';
   font-family: 'Font Awesome 6 Free';
@@ -37168,31 +37207,31 @@ footer a {
   transition: all 0.3s ease-in-out;
 }
 
-/* line 365, ../laragon/www/relkraft/scss/layout/_home.scss */
+/* line 407, ../laragon/www/relkraft/scss/layout/_home.scss */
 .appList ul li:hover {
   color: #62BB46;
   padding-left: 24px;
 }
 
 @media (min-width: 768px) {
-  /* line 375, ../laragon/www/relkraft/scss/layout/_home.scss */
+  /* line 417, ../laragon/www/relkraft/scss/layout/_home.scss */
   .appList.text-end ul {
     align-items: flex-end;
   }
-  /* line 378, ../laragon/www/relkraft/scss/layout/_home.scss */
+  /* line 420, ../laragon/www/relkraft/scss/layout/_home.scss */
   .appList.text-end ul li {
     text-align: right;
     padding-left: 0;
     padding-right: 20px;
   }
-  /* line 383, ../laragon/www/relkraft/scss/layout/_home.scss */
+  /* line 425, ../laragon/www/relkraft/scss/layout/_home.scss */
   .appList.text-end ul li:before {
     content: '\f104';
     left: auto;
     right: 0;
     transform: translateY(-50%);
   }
-  /* line 390, ../laragon/www/relkraft/scss/layout/_home.scss */
+  /* line 432, ../laragon/www/relkraft/scss/layout/_home.scss */
   .appList.text-end ul li:hover {
     padding-right: 24px;
   }
