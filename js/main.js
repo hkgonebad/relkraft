@@ -78,6 +78,9 @@ $(function () {
     });
   }
 
+  // Refresh AOS
+  AOS.refresh();
+
   // Brands Slider
   // if ($(".brandSlider").length > 0) {
   //   $(".brandSlider").slick({
