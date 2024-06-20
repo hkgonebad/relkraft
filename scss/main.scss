@@ -11,7 +11,7 @@
 @import 'plugins/slick';
 @import 'plugins/slick-theme';
 @import 'plugins/aos';
-@import 'plugins/animate';
+// @import 'plugins/animate';
 
 @import 'layout/default';
 
@@ -20,4 +20,6 @@
 @import 'layout/home';
 
 @import 'layout/page';
-@import 'layout/testimonials';
+@import 'layout/aboutus';
+@import 'layout/applications';
+@import 'layout/features';

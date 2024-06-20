@@ -1,0 +1,63 @@
+.header-section-inner{
+    h1{
+        font-size: 32px;
+        font-weight: 700px;
+        color: #1B3A66
+    }
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+
+.custom-row-color{
+--bs-table-bg:  #EFFFEA;
+
+}
+table th{
+    border: none;
+    --bs-table-bg:  #1B3A66;
+    --bs-table-color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+table td{
+    font-size: 13px;
+    font-weight: 700;
+    border:none;
+    text-align: center;
+    }
+
+    tbody{
+        border: solid 1px #E8EEF6;
+    }
+
+.row-data{
+    font-size: 13px;
+    font-weight: 500;
+}
+.about-relkraft-para{
+
+font-size: 26px;
+font-weight: 300;
+line-height: 36px;
+text-align: left;
+span{
+    
+font-size: 26px;
+font-weight: 900;
+line-height: 36px;
+text-align: left;
+
+}
+
+
+}
+
+.new-sec-header{
+font-size: 22px;
+font-weight: 700;
+line-height: 25.81px;
+text-align: left;
+
+}

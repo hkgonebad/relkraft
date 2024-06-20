@@ -1,9 +1,6 @@
 // document.addEventListener("DOMContentLoaded", yall);
 //AOS
-AOS.init({
-  duration: 600,
-  easing: "ease-in-out",
-});
+AOS.init();
 
 // Get the header
 // var header = document.getElementById("header");
@@ -32,7 +29,18 @@ AOS.init({
 
 //
 //new WOW().init();
-
+$(document).ready(function () {
+  $("#dropupMenuButton").on("click", function () {
+    var icon = $(this).find("i");
+    if (icon.hasClass("fa-plus")) {
+      icon.removeClass("fa-plus").addClass("fa-times");
+      $(this).attr("aria-haspopup", "true");
+    } else {
+      icon.removeClass("fa-times").addClass("fa-plus");
+      $(this).attr("aria-haspopup", "false");
+    }
+  });
+});
 /////////////////////////////////////
 
 ///////////////////////////////////
@@ -78,7 +86,7 @@ $(function () {
     });
   }
 
-  // Refresh AOS
+  // Aos Refresh
   AOS.refresh();
 
   // Brands Slider
@@ -108,4 +116,22 @@ $(function () {
   //     ],
   //   });
   // }
+
+  // Features
+  $.getJSON("data/features.json", function (features) {
+    features.forEach(function (feature, index) {
+      // Skip the first feature as it's already in the HTML
+      // if(index === 0) return;
+
+      var featureHtml = `
+            <div class="col-md-3 col-sm-6 col-12">
+                <div class="grid-item position-relative fBox">
+                    <img alt="${feature.alt}" src="${feature.src}">
+                    <p class="">${feature.text}</p>
+                </div>
+            </div>
+        `;
+      $("#featuresList").append(featureHtml);
+    });
+  });
 });

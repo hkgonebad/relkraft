@@ -1,0 +1,19 @@
+[
+    {"alt": "feature 1", "src": "img/features/Feature 1.png", "text": "High screw holding capacity"},
+    {"alt": "feature 2", "src": "img/features/Feature 2.png", "text": "Fire retardant"},
+    {"alt": "feature 3", "src": "img/features/Feature 3.png", "text": "100% waterproof"},
+    {"alt": "feature 4", "src": "img/features/Feature 4.png", "text": "Easy to work with"},
+    {"alt": "feature 5", "src": "img/features/Feature 5.png", "text": "VOC Emission free"},
+    {"alt": "feature 6", "src": "img/features/Feature 6.png", "text": "Non-toxic and formaldehyde free"},
+    {"alt": "feature 7", "src": "img/features/Feature 7.png", "text": "Corrosion free and low maintenance"},
+    {"alt": "feature 8", "src": "img/features/Feature 8.png", "text": "No shrinking or swelling"},
+    {"alt": "feature 9", "src": "img/features/Feature 9.png", "text": "Smooth and Semi-Gloss"},
+    {"alt": "feature 10", "src": "img/features/Feature 10.png", "text": "Not affected by salts, alkalis and acids"},
+    {"alt": "feature 11", "src": "img/features/Feature 11.png", "text": "Fine cell structure"},
+    {"alt": "feature 12", "src": "img/features/Feature 12.png", "text": "UV resistant"},
+    {"alt": "feature 13", "src": "img/features/Feature 13.png", "text": "100% Termite, fungus and borer proof"},
+    {"alt": "feature 14", "src": "img/features/Feature 14.png", "text": "Lead and Cadmium free"},
+    {"alt": "feature 15", "src": "img/features/Feature 15.png", "text": "Superior Durability and light weight"},
+    {"alt": "feature 16", "src": "img/features/Feature 16.png", "text": "100% recyclable and eco friendly"},
+    {"alt": "feature 17", "src": "img/features/Feature 17.png", "text": "Good Sound and Thermal Insulation"}
+]

@@ -119,3 +119,123 @@ footer {
         }
     }
 }
+
+
+
+// Floating Button
+.floatingBtn {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 999;
+
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        padding: 0;
+
+        background-color: #62BB46;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        z-index: 3;
+        box-shadow: 1px 3px 3px #514e4e;
+        border: none;
+
+        &:hover,
+        &:active,
+        &:focus {
+            background: $primary;
+        }
+
+        .fa {}
+    }
+
+    .dropdown-menu {
+        border-radius: 20px;
+        gap: 15px;
+        overflow: hidden;
+
+        .dropdown-item {
+            padding: 0;
+        }
+
+        .dropdown-link {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 15px 15px;
+
+            i {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 40px;
+                width: 40px;
+
+                border: 1px solid #e1e1e1;
+                border-radius: 50%;
+                color: #000;
+                font-size: 24px;
+
+            }
+
+            p {
+                font-size: 14px;
+                font-weight: 700;
+                margin: 0;
+                color: #000;
+
+                span {
+                    font-size: 14px;
+                    font-weight: 500;
+                    display: block;
+                }
+            }
+
+            h4 {
+                font-size: 14px;
+                font-weight: 900;
+                margin: 0;
+                color: #000;
+            }
+
+            &:hover,
+            &:active,
+            &:focus {
+
+                background: $primary;
+
+                i,
+                p,
+                h4 {
+                    color: #fff;
+                }
+
+            }
+        }
+    }
+}
+
+
+
+.clipboard:hover {
+    .la-clipboard-list {
+
+        background-color: #62BB46;
+        color: white;
+        border-radius: 100px;
+
+    }
+
+    .la-circle {
+        color: #62BB46;
+    }
+
+    .text-bold {
+        color: #62BB46;
+    }
+}
