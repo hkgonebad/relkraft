@@ -58,11 +58,24 @@
             font-weight: 900;
             color: #fff;
             margin-bottom: 5px;
-            line-height: 1;
-            text-transform: uppercase;
+            line-height: 1.2;
+
+            sup {
+                font-size: 20px;
+                font-weight: 700;
+                top: -18px;
+            }
+
+            // text-transform: uppercase;
 
             @include media-breakpoint-down(md) {
                 font-size: 26px;
+
+                sup {
+                    font-size: 18px;
+                    font-weight: 700;
+                    top: -10px;
+                }
             }
         }
 
